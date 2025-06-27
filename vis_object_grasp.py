@@ -29,7 +29,7 @@ for f in files:
     }
     for p in grasp_label.keys():
         for t in tax_grasp.keys():
-            if grasp_label[p][t] != []:
+            if len(grasp_label[p][t]) != 0:
                 tax_grasp[t].append(grasp_label[p][t])
     scene = trimesh.Scene()
     scene.add_geometry(obj)
