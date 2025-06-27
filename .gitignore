@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+**.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# PyLint
+.pylint.d/
+
+# Bandit security scanner
+bandit.json
+
+# Pytest
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs (PyCharm, etc.)
+.idea/
+
+# MacOS
+.DS_Store
+
+# Linux
+*~
+
+# Build
+**/build/
