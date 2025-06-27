@@ -1,6 +1,7 @@
 ## HGC-Net: Deep anthropomorphic hand grasping in clutter
 
 ### Installation
+Tested on Ubuntu 24.04, Python 3.9, Cuda 12.9
 
 Install necessary packages: 
 ```sh
